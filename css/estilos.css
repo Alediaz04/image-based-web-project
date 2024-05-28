@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=intercambio');
 
 *{
-    margin: 0;
-    padding: 0;
+    
     font-family: sans-serif;
     text-align: center;
+    
 }
 body{
     display: flex;
@@ -13,19 +13,93 @@ body{
     background-color: rgb(206,214,240);
 }
 .section2{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    margin: 100px;
+    
+    margin: 10% 80%  ;
     border-radius: 10px;
     background-color: white;
 }
+
 .icon{
-    padding-left: 100px;
+    
+    font-size: 50px;
+    color: rgb(54,123,245);
+    padding-left: 30%;
+  
+    
 }
 .titulo{
+     margin-top: -3%; 
     font-size: 50px;
     font-weight: 800;
     
+}
+
+.explore{
+    margin: 0px 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.welcome{
+    color: rgb(108, 112, 126);
+    margin: 0px 140px 0px 130px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    
+}
+
+.formline{
+    border-top: 1px solid #ccc;
+    margin: 0px 118px;
+    
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.email{
+    display: flex;
+    margin-top: 10px;
+    margin: 0px 0px ;
+    margin-bottom: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+
+.password{
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px ;
+    border: 2px solid #ccc;
+    font-size: 40px;
+}
+
+button{
+    background-color: rgb(54,123,245);
+    padding: 3% 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.pie{
+    color: rgb(108, 112, 126);
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 13px;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    
+    color: black;
     
 }
